@@ -5,10 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block head_title %}CFE Home{% endblock %}</title>
+    <title>DEMO: {% block head_title %}CFE Home{% endblock %}</title>
     {% include 'head/css.html' %}
 </head>
 <body>
+    <div style="margin:0rem; position: absolute; top:0px; padding:3rem; border-radius: 0px; background-color: blanchedalmond;width: 100%; color:black">
+        <h1>DEMO SITE</h1> 
+        <p>This course is heavily code-focused thus the UI is pretty basic.</p>
+        <br/>
+        <p> Review the code <a href="https://github.com/codingforentrepreneurs/django-tailwindcss">here</a>.</p>
+        <p> Watch the <a href="https://www.codingforentrepreneurs.com/courses/django-x-tailwindcss/">course here</a>. </p>
+    </div>
+
     <div>
         {% block content %}{% endblock %}
     </div>
